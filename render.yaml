@@ -1,7 +1,7 @@
 services:
-  - type: static site
+  - type: static_site 
     name: gradeup-app
-    env: static
+    env: node          
     buildCommand: npm install && npm run build
     staticPublishPath: build
     routes:
