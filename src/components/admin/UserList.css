@@ -1,0 +1,51 @@
+/* src/components/admin/UserList.css */
+
+.user-list-widget {
+    background: var(--card-bg);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.user-list-widget h3 {
+    margin-top: 0;
+}
+
+.user-table {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-table-header, .user-table-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 15px;
+    padding: 12px 15px;
+    border-bottom: 1px solid #f0f0f0;
+    align-items: center;
+}
+
+.user-table-header {
+    font-weight: 600;
+    color: #6c757d;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.user-table-row:last-child {
+    border-bottom: none;
+}
+
+.user-table-row span {
+    font-size: 15px;
+    word-break: break-all;
+}
+
+.user-table-row span.role-admin {
+    font-weight: bold;
+    color: #dc3545;
+}
+
+.user-table-row span.role-user {
+    color: #343a40;
+}
