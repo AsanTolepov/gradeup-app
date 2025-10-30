@@ -1,6 +1,6 @@
 services:
-  - type: static_site
-    name: gradeup-app # Bu yerga Render'da loyihaga bergan nomingizni yozing
+  - type: static site # "static_site" emas, "static site" (probel bilan)
+    name: gradeup-app
     env: static
     buildCommand: npm install && npm run build
     staticPublishPath: build
