@@ -1,5 +1,5 @@
 services:
-  - type: static site # "static_site" emas, "static site" (probel bilan)
+  - type: static site
     name: gradeup-app
     env: static
     buildCommand: npm install && npm run build
